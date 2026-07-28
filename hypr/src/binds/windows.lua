@@ -18,3 +18,10 @@ hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+hl.bind(mainMod .. " + O", function()
+    hl.dispatch(hl.dsp.window.set_prop({ 
+        prop = "opaque", 
+        value = "toggle", 
+        window = "activewindow" 
+    }))
+end)
