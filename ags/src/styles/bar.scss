@@ -4,21 +4,21 @@
 window.Bar {
   background: transparent;
   color: $foreground;
-  min-height: 25px;
+  min-height: 24px;
 
   > centerbox {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-bottom: 2px solid $border;
     background: $background-main;
   }
 
   .startBox {
-    margin-left: 5px;
+    margin-left: 4px;
   }
 
   .endBox {
-    margin-right: 5px;
+    margin-right: 4px;
   }
 
   .tray {
@@ -42,7 +42,7 @@ window.Bar {
     }
 
     .workspace {
-      padding: 0px 5px;
+      padding: 0px 4px;
       border-radius: $border-radius;
       transition: all 150ms ease;
     }
@@ -70,6 +70,6 @@ window.Bar {
   }
 
   .barButton {
-    padding: 0px 5px;
+    padding: 0px 4px;
   }
 }
