@@ -6,11 +6,11 @@ export const options = {
   bar: {
     windowName: "bar",
     anchors: TOP | LEFT | RIGHT,
-    spacing: 5,
-    elementSpacing: 5,
+    spacing: 4,
+    elementSpacing: 6,
     workspaces: {
       count: 10,
-      spacing: 3,
+      spacing: 2,
     },
   },
   wallpaperPicker: {
