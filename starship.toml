@@ -1,0 +1,44 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+format = """(bold green)[$username@](bold green)$directory$git_status$git_branch$character"""
+
+[git_status]
+format = '([\($all_status$ahead_behind\)]($style) )'
+conflicted = 'co'
+ahead = 'ah'
+behind = 'be'
+diverged = 'di'
+up_to_date = 'up'
+untracked = 'un'
+stashed = 'st'
+modified = 'mo'
+staged = '[++\($count\)](green)'
+renamed = 're'
+deleted = 'de'
+style = 'bold yellow'
+
+[directory]
+format = '[$read_only]($read_only_style) [$path]($style) '
+read_only = ' read-only'
+home_symbol = "/home/flyen256"
+
+[directory.substitutions]
+'~' = "/home/flyen256"
+
+[character]
+success_symbol = '[>](bold cyan)'
+error_symbol = '[>](bold cyan)'
+
+[username]
+disabled = false
+show_always = true
+format = '$user'
+
+[git_branch]
+style = 'bold blue'
+format = '([\($branch(:$remote branch)\)]($style) )'
+
+[package]
+disabled = true
