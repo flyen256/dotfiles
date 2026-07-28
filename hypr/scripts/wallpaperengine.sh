@@ -1,4 +1,4 @@
-WALLPAPER_ID=2950799603
+WALLPAPER_ID=3418347082
 
 if pidof linux-wallpaperengine; then
     killall linux-wallpaperengine
