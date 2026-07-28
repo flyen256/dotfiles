@@ -1,0 +1,25 @@
+@import "./mixins/button.scss";
+@import "./colors.scss";
+
+$font-size: 14px;
+$font-weight: 700;
+$border-radius: 10px;
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+.icon {
+  font-family: "Material Symbols Outlined";
+  font-size: 18px;
+}
+
+.closeButton {
+  color: $foreground;
+}
+
+@import "./bar.scss";
+@import "./wallpaperPicker.scss";
+@import "./system.scss";

@@ -1,0 +1,21 @@
+export const icons = {
+  wired: "network-wired-symbolic",
+  wired_off: "",
+  wireless: "network-wireless-signal-excellent-symbolic",
+  wireless_off: "network-wireless-signal-none-symbolic",
+  clock: "preferences-system-time-symbolic",
+  weather: "weather-overcast-symbolic",
+  memory: "nvidia-ram-symbolic",
+  cpu: "auth-sim-symbolic",
+  gpu: "tv-symbolic",
+  window: "cs-windows-symbolic",
+  wallpaper: "folder-pictures-symbolic",
+  left: "media-playback-start-rtl-symbolic",
+  right: "media-playback-start-symbolic",
+  shutdown: "system-shutdown-symbolic",
+  reboot: "system-reboot-symbolic",
+  suspend: "weather-clear-night-symbolic",
+  lock: "system-lock-screen-symbolic",
+  keyboard: "keyboard_alt",
+  close: "window-close-symbolic"
+}

@@ -1,0 +1,17 @@
+window.System {
+  background: transparent;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  .system {
+    background-color: $background-main;
+    padding: 10px;
+    border-radius: $border-radius * 2;
+    border: 2px solid $border;
+  }
+
+  .systemButton {
+    padding: 10px;
+    color: $foreground;
+  }
+}
