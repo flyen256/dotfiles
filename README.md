@@ -8,4 +8,4 @@
 # Settings
 
 - Icon theme - Adwaita
-- Cursor - apple_cursor (yay -S apple_cursor)
+- Cursor - macOS (yay -S apple_cursor)
