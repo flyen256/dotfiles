@@ -30,8 +30,8 @@ export const Bar = (gdkmonitor: Gdk.Monitor) => {
           spacing={options.bar.spacing}
           cssClasses={["startBox"]}
         >
-          <FocusedClient />
           <Workspaces />
+          <FocusedClient />
         </box>
         <box
           $type="center"

@@ -18,20 +18,19 @@ export const FocusedClient = () => {
   })
 
   return (
-    <box cssClasses={["barElement", "focusedClient"]}>
-      <box spacing={options.bar.elementSpacing}>
+    <box>
+      <With value={client}>
+        {(c) => {
+          if (!c) {
+            return <></>
+          }
 
-        <With value={client}>
-          {(c) => {
-            if (!c) {
-              return <label label="No focused client" />
-            }
+          const titleBinding = createBinding(c, "title")
+          const classBinding = createBinding(c, "class")
 
-            const titleBinding = createBinding(c, "title")
-            const classBinding = createBinding(c, "class")
-
-            return (
-              <box orientation={Gtk.Orientation.HORIZONTAL} spacing={5}>
+          return (
+            <box cssClasses={["barElement", "focusedClient"]}>
+              <box orientation={Gtk.Orientation.HORIZONTAL} spacing={options.bar.elementSpacing}>
                 <With value={classBinding}>
                   {(cls) => (
                     <label
@@ -58,10 +57,10 @@ export const FocusedClient = () => {
                   }}
                 </With>
               </box>
-            )
-          }}
-        </With>
-      </box>
+            </box>
+          )
+        }}
+      </With>
     </box>
   )
 }
