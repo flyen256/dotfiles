@@ -2,7 +2,7 @@
 
 - Window manager >> [Hyprland <3](https://github.com/hyprwm/hyprland)
 - Terminal >> [kitty](https://github.com/kovidgoyal/kitty)
-- App launcher >> [rofi](https://github.com/davatorium/rofi)
+- App launcher >> [vicinae](https://github.com/vicinaehq/vicinae)
 - Shell >> [ags](https://github.com/aylur/ags)
 
 # Settings

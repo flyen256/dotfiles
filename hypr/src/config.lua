@@ -23,12 +23,13 @@ local config = {
 		"~/.config/autostart/wallpaperengine.sh",
 		"gammastep -O 6500 -g 1.25 -m wayland",
 		"gsettings set org.gnome.desktop.interface gtk-theme \"YOUR_DARK_GTK3_THEME\"",
-		"gsettings set org.gnome.desktop.interface color-scheme \"prefer-dark\""
+		"gsettings set org.gnome.desktop.interface color-scheme \"prefer-dark\"",
+		"vicinae server"
 	},
 	applications = {
 		terminal = "kitty",
 		fileManager = "nautilus",
-		menu = "~/.config/hypr/scripts/toggle_rofi.sh",
+		menu = "vicinae toggle",
 		browser = "chromium",
 		discord = "discord",
 		telegram = "Telegram",

@@ -42,7 +42,7 @@ hl.config({
 			passes     = 2,
 			vibrancy   = 1,
 			brightness = 1,
-			xray       = true
+			xray       = true 
 		},
 	},
 
