@@ -31,12 +31,12 @@ export const FocusedClient = () => {
             const classBinding = createBinding(c, "class")
 
             return (
-              <box orientation={Gtk.Orientation.VERTICAL}>
+              <box orientation={Gtk.Orientation.HORIZONTAL} spacing={5}>
                 <With value={classBinding}>
                   {(cls) => (
                     <label
                       class="focusedClientClass"
-                      label={cls || "unknown"}
+                      label={`(${cls})` || "(unknown)"}
                       halign={Gtk.Align.START}
                     />
                   )}
