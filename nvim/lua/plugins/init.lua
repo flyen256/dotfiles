@@ -1,5 +1,9 @@
 return {
 	{
+			"aronjohanns/smooth-resize.nvim",
+			opts = {}
+	},
+	{
 		"stevearc/conform.nvim",
 		opts = {
 			formatters_by_ft = {

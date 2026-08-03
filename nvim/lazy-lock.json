@@ -29,6 +29,7 @@
   "nvim-treesitter": { "branch": "main", "commit": "4916d6592ede8c07973490d9322f187e07dfefac" },
   "nvim-unity-sync": { "branch": "main", "commit": "b556e5adaf05e69626e23025a969a981e4eeaf32" },
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
+  "smooth-resize.nvim": { "branch": "main", "commit": "5218aedc1dedb9c0c0f105b73f46e601f712a786" },
   "tagbar": { "branch": "master", "commit": "b37b05ff1925b0b3931f031ebf88690aa0974375" },
   "telescope.nvim": { "branch": "master", "commit": "84b9ba066d1860f7a586ce9cd732fd6c4f77d1d9" },
   "vim-airline": { "branch": "master", "commit": "1586662296c9dc946083e17cb6a4ef0b3e7c0d68" },
