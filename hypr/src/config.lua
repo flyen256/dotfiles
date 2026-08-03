@@ -16,15 +16,17 @@ local config = {
 	autostart_programs = {
 		"hyprctl dispatch workspace 0",
 		"ags run",
-		"awww-daemon & swaync",
+		"awww-daemon",
+		"swaync",
 		"wl-paste --type text --watch cliphist store",
 		"wl-paste --type image --watch cliphist store",
 		"~/TgWsProxy_linux_amd64",
-		"~/.config/autostart/wallpaperengine.sh",
+		"~/.config/hypr/scripts/wallpaperengine.sh",
 		"gammastep -O 6500 -g 1.25 -m wayland",
 		"gsettings set org.gnome.desktop.interface gtk-theme \"YOUR_DARK_GTK3_THEME\"",
 		"gsettings set org.gnome.desktop.interface color-scheme \"prefer-dark\"",
-		"vicinae server"
+		"vicinae server",
+		"dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
 	},
 	applications = {
 		terminal = "kitty",
