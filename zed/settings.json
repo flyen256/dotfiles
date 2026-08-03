@@ -1,0 +1,51 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "format_on_save": "on",
+  "cli_default_open_behavior": "new_window",
+  "terminal": {
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "status_bar": {
+    "active_language_button": false,
+    "cursor_position_button": false
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "search": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "icon_theme": "Material Icon Theme",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Adwaita Dark",
+  },
+}
