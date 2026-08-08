@@ -1,9 +1,12 @@
-if pidof ags; then
+#!/bin/bash
+
+if pidof ags > /dev/null; then
   echo "ags is running. Restarting..."
   ags quit
-  ags run
-  killall sh
+  ags run & 
 else
   echo "ags is not running. Starting..."
-  ags run
+  ags run &
 fi
+
+exec ~/.config/hypr/scripts/wallpaperengine.sh

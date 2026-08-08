@@ -9,7 +9,7 @@ window.Bar {
   > centerbox {
     padding-top: 4px;
     padding-bottom: 4px;
-    border-bottom: 2px solid $border;
+    border-bottom: $border-width solid $border;
     background: $background-main;
   }
 
@@ -43,8 +43,10 @@ window.Bar {
 
     .workspace {
       padding: 0px 4px;
-      border-radius: $border-radius;
-      transition: all 150ms ease;
+
+      &:hover {
+        background-color: unset;
+      }
     }
 
     .selectedWorkspace {
@@ -70,6 +72,7 @@ window.Bar {
   }
 
   .barButton {
+    @include button;
     padding: 0px 4px;
   }
 }

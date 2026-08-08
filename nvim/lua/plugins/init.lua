@@ -1,5 +1,9 @@
 return {
 	{
+			"uga-rosa/ccc.nvim",
+			opts = {}
+	},
+	{
 			"aronjohanns/smooth-resize.nvim",
 			opts = {}
 	},

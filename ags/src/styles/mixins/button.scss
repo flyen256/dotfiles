@@ -1,4 +1,10 @@
 @mixin button {
-  border-radius: 0;
-  background-color: transparent;
+  color: $foreground;
+  border-radius: $border-radius;
+  background-color: $background-item;
+  transition: 0;
+
+  &:hover {
+    background-color: $background-item-hover;
+  }
 }

@@ -1,9 +1,10 @@
-$background-main: #211d21;
+$background-main: #121212ff;
 $foreground: #fbf1c7;
 $foreground-secondary: #978b71;
 $foreground-selected: #b8bb26;
-$background-item: #3c3836;
-$border: #635c59;
+$background-item: rgb(32, 32, 32);
+$background-item-hover: rgb(40, 40, 40);
+$border: $foreground;
 
 $base: #1d2021;
 $crust: #1d2021;

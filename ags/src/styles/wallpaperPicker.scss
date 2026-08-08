@@ -1,20 +1,21 @@
+@import "./mixins/button.scss";
+
 window.WallpaperPicker {
+  entry {
+    border-radius: $border-radius;
+    background-color: $background-item;
+    outline: none;
+  }
+
   .wallpaperPicker {
     background-color: $background-main;
     padding: 10px;
     border-radius: $border-radius * 2;
-    border: 2px solid $border;
+    border: $border-width solid $border;
   }
 
   .wallpaperCard {
     @include button;
-
-    border: 2px solid transparent;
-    border-radius: $border-radius;
-
-    &:hover {
-      background-color: $background-item;
-    }
   }
 
   .wallpaper {
@@ -26,6 +27,6 @@ window.WallpaperPicker {
   }
 
   .wallpaperPickerButton {
-    color: $foreground;
+    @include button;
   }
 }

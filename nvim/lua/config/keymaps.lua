@@ -1,5 +1,9 @@
 local keymap = vim.keymap.set
 
+-- Delete keymaps
+keymap("n", "c", "<nop>")
+keymap("n", "cc", "<nop>")
+
 -- Leader key
 vim.g.mapleader = "\\"
 
@@ -66,6 +70,9 @@ keymap("n", "gE", vim.diagnostic.setloclist)
 
 -- Files
 keymap("n", "<C-s>", ":w<CR>")
+
+-- Color picker
+keymap("n", "cc", ":CccPick<CR>")
 
 -- Move Lines
 keymap("n", "<A-k>", ":m .-2<CR>==")     -- move line up(n)

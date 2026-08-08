@@ -1,3 +1,5 @@
+@import "./mixins/button.scss";
+
 window.System {
   background: transparent;
   margin-top: 10px;
@@ -7,11 +9,11 @@ window.System {
     background-color: $background-main;
     padding: 10px;
     border-radius: $border-radius * 2;
-    border: 2px solid $border;
+    border: $border-width solid $border;
   }
 
   .systemButton {
+    @include button;
     padding: 10px;
-    color: $foreground;
   }
 }
