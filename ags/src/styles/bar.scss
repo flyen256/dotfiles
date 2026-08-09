@@ -9,8 +9,10 @@ window.Bar {
   > centerbox {
     padding-top: 4px;
     padding-bottom: 4px;
-    border-bottom: $border-width solid $border;
+    border: $border-width solid $border;
+    border-radius: $border-radius + 4;
     background: $background-main;
+    margin: 4px 8px 0px 8px;
   }
 
   .startBox {

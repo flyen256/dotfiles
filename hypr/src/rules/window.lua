@@ -5,7 +5,17 @@ hl.window_rule({
 	},
 	float = true
 })
-
+hl.window_rule({
+	name = "wallpaper-engine",
+	match = {
+		class = "^(linux-wallpaperengine)$"
+	},
+	no_blur = true,
+	no_anim = true,
+	move = {"0", "0"},
+	size = {"monitor_w", "monitor_h"},
+	pin = true
+})
 hl.window_rule({
 	name = "tearing",
 	match = {
