@@ -8,8 +8,9 @@ window.System {
   .system {
     background-color: $background-main;
     padding: 10px;
-    border-radius: $border-radius * 2;
+    border-radius: $border-radius + 10;
     border: $border-width solid $border;
+    color: $foreground;
   }
 
   .systemButton {
