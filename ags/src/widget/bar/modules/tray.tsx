@@ -11,14 +11,19 @@ export const Tray = () => {
     <box cssClasses={["barElement", "tray"]}>
       <box spacing={options.bar.elementSpacing}>
         <For each={trayItems}>
-          {(item: AstalTray.TrayItem) =>
-            item.gicon && (
+          {(item: AstalTray.TrayItem) => {
+            const gicon = createBinding(item, "gicon")
+            const tooltip = createBinding(item, "tooltipMarkup")
+
+            return (
               <button
+                visible={gicon.as((g) => !!g)}
                 cssClasses={["trayItem"]}
                 onClicked={(self) => {
-                  if (item.menuModel) {
+                  const menuModel = item.menuModel
+                  if (menuModel) {
                     const menu = createMenu(
-                      item.menuModel,
+                      menuModel,
                       item.actionGroup,
                       self,
                     )
@@ -26,12 +31,13 @@ export const Tray = () => {
                   }
                 }}
               >
-                <image gicon={item.gicon} tooltipMarkup={item.tooltipMarkup} />
+                <image gicon={gicon} tooltipMarkup={tooltip} />
               </button>
             )
-          }
+          }}
         </For>
       </box>
     </box>
   )
 }
+
