@@ -17,7 +17,6 @@ then
                     telegram-desktop \
                     discord \
                     nautilus \
-                    vicinae \
                     ly \
                     ttf-jetbrains-mono-nerd \
                     ttf-material-symbols-variable \
@@ -33,6 +32,7 @@ then
     yay -S  aylurs-gtk-shell-git \
             libastal \
             apple_cursor \
+            vicinae \
             tg-ws-proxy-bin
     ags types
     git clone https://github.com/flyen256/dotfiles ./flyen256_dotfiles/.config
