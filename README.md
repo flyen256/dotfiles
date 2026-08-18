@@ -1,4 +1,11 @@
+# Preview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61e3341c-a062-4c18-900f-2c4c7137b667" />
+<img width="414" height="631" alt="image" src="https://github.com/user-attachments/assets/1ec22717-7493-4bac-98a5-6bce3934cce9" />
+
 # Installation
+Kernels by CachyOS
+I use [this](https://github.com/dharmx/walls) wallpapers in ~/Pictures/Wallpapers for awww
+
 Install script for any shell:
 ```sh
 bash -c "$(curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh)"
