@@ -49,7 +49,7 @@ export const WallpaperPicker = () => {
         valign={Gtk.Align.START}
       >
         <box orientation={Gtk.Orientation.HORIZONTAL} spacing={5}>
-          <entry onNotifyText={(self) => setSearchQuery(self.text)} />
+          <entry onNotifyText={(self) => setSearchQuery(self.text)} hexpand={true} />
           <button
             class="closeButton"
             onClicked={() => app.toggle_window(options.wallpaperPicker.windowName)}
