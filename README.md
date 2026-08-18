@@ -1,5 +1,6 @@
 # Preview
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6227a8d4-4541-4acd-bc2d-a66aa52a45a3" />
+<img width="1920" height="1080" alt="2026-08-18-200359_hyprshot" src="https://github.com/user-attachments/assets/af8e0e6f-afc8-4be2-b3ba-195a861c674b" />
 
 # Installation
 Kernels by CachyOS
@@ -9,6 +10,9 @@ Install script for any shell:
 ```sh
 bash -c "$(curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh)"
 ```
+# Usage
+You can view keybinds in hypr config which architectured so simple. To use wallpaper picker you need to download awww and start it and disable linux-wallpaperengine.
+
 # Powered by
 
 - Window manager >> [Hyprland <3](https://github.com/hyprwm/hyprland)
