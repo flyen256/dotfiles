@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "This script will override your current configs in ~/.config and .git folder in ~/.config. Also, you may not need some of the applications that will be installed. Continue? [y/n]"
-read CONFIRM
+read -r CONFIRM </dev/tty
 if [[ $CONFIRM == "y" || $CONFIRM == "Y" || $CONFIRM == "" ]]
 then
     echo "Installing..."
