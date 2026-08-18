@@ -11,7 +11,6 @@ then
                     hyprpaper \
                     hyprpicker \
                     hypridle \
-                    zen-browser-bin \
                     pavucontrol \
                     kitty \
                     telegram-desktop \
