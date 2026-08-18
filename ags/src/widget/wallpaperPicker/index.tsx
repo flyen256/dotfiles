@@ -22,14 +22,17 @@ export const WallpaperPicker = () => {
   const [searchQuery, setSearchQuery] = createState("")
   const [currentPage, setCurrentPage] = createState(0)
 
-  const [allWallpapers] = createState<Wallpaper[]>(
-    exec(`ls ${wallpaperDir}`)
+  const [allWallpapers, setWallpapers] = createState<Wallpaper[]>(
+    exec(`find "${wallpaperDir}" -type f \\( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \\)`)
       .split("\n")
-      .filter((f: any) => /\.(jpg|jpeg|png|webp)$/i.test(f))
-      .map((f: any) => ({
-        path: `${wallpaperDir}/${f}`,
-        fileName: f,
-      })),
+      .filter((p: string) => p.trim() !== "")
+      .map((p: string) => {
+        const fileName = p.substring(p.lastIndexOf("/") + 1)
+        return {
+          path: p,
+          fileName: fileName,
+        }
+      }),
   )
 
   const win = (
