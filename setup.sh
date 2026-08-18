@@ -32,12 +32,13 @@ then
             libastal \
             apple_cursor \
             vicinae \
-            tg-ws-proxy-bin
+            tg-ws-proxy-bin \
+            linux-wallpaperengine-git
     ags types
     git clone https://github.com/flyen256/dotfiles ./flyen256_dotfiles/.config
     cp -ri ./flyen256_dotfiles/.config
     rm -r ./flyen256_dotfiles
-    echo "Successfully installce dotfiles. You may need to reboot your system."
+    echo "Successfully installed dotfiles. You may need to reboot your system."
 else
     echo "Canceled."
 fi
