@@ -1,7 +1,7 @@
 :root {
   font-family: "JetBrainsMono Nerd Font";
   --cc-bg: #2e2e2e;
-  --noti-border-color: #c7b6b6;
+  --noti-border-color: #b9b6c7;
   --noti-bg: 46, 46, 46;
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: #2e2e2e;
@@ -9,17 +9,17 @@
   --noti-bg-focus: #2e2e2e;
   --noti-close-bg: #424242;
   --noti-close-bg-hover: #565656;
-  --text-color: #c7b6b6;
+  --text-color: #b9b6c7;
   --text-color-disabled: #9e8f8f;
   --bg-selected: rgb(0, 128, 255);
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
   --border: 2px solid var(--noti-border-color);
-  --border-radius: 16px;
+  --border-radius: 12px;
   --notification-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3),
     0 1px 3px 1px rgba(0, 0, 0, 0.7), 0 2px 6px 2px rgba(0, 0, 0, 0.3);
-  --font-size-body: 15px;
+  --font-size-body: 14px;
   --font-size-summary: 16px;
   /* Deprecated variables (because of their typos). Keeeping them around for backwards compatibility. */
   --hover-tranistion: background 0.15s ease-in-out;

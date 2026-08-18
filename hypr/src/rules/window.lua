@@ -17,9 +17,22 @@ hl.window_rule({
 	pin = true
 })
 hl.window_rule({
+	name = "nofocus",
+	match = {
+		class = "^jetbrains-(?!toolbox)"
+	},
+	no_initial_focus = true,
+	float = true
+})
+hl.window_rule({
 	name = "tearing",
 	match = {
 		class = "^(osu!.exe|steam_app_1422450|gamescope)$"
 	},
 	immediate = true
+})
+hl.window_rule({
+    name = "discord-workspace",
+    match = { class = "discord" },
+    workspace = "4",
 })

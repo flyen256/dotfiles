@@ -11,13 +11,13 @@ export const Weather = () => {
       const cleanTemp = res.trim()
       
       if (cleanTemp.includes("<") || cleanTemp === "") {
-        return { temp: "Ошибка" }
+        return { temp: "Error" }
       }
 
       return { temp: cleanTemp }
     } catch (error) {
-      console.error("Ошибка получения погоды:", error)
-      return { temp: "н/д" }
+      console.error("Get weather error:", error)
+      return { temp: "n/a" }
     }
   })
 

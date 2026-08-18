@@ -20,7 +20,7 @@ local config = {
 		"swaync",
 		"wl-paste --type text --watch cliphist store",
 		"wl-paste --type image --watch cliphist store",
-		"~/TgWsProxy_linux_amd64",
+		"tg-ws-proxy",
 		"~/.config/hypr/scripts/wallpaperengine.sh",
 		"gammastep -O 6500 -g 1.25 -m wayland",
 		"gsettings set org.gnome.desktop.interface gtk-theme \"YOUR_DARK_GTK3_THEME\"",

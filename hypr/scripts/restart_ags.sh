@@ -5,7 +5,8 @@ CPU_SCRIPT="/home/$USER/.config/ags/scripts/cpu.sh"
 GPU_SCRIPT="/home/$USER/.config/ags/scripts/gpu.sh"
 
 ags quit
-
+killall gjs
+killall ags
 if pidof ags > /dev/null; then
   echo "ags is running. Restarting..."
 	pkill -f "sh $MEM_SCRIPT"
