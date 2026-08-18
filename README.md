@@ -3,7 +3,6 @@ Install script for any shell:
 ```sh
 bash -c "$(curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh)"
 ```
-
 # Powered by
 
 - Window manager >> [Hyprland <3](https://github.com/hyprwm/hyprland)
