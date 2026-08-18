@@ -1,4 +1,5 @@
 # Installation
+Install script for any shell:
 ```bash
 curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh | bash /dev/stdin </dev/tty
 ```
