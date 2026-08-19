@@ -11,7 +11,7 @@ Install script for any shell:
 bash -c "$(curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh)"
 ```
 # Usage
-You can view keybinds in hypr config which architectured so simple. To use wallpaper picker you need to download awww and start it and disable linux-wallpaperengine.
+You can view keybinds in hypr config which has a very simple architecture. To use wallpaper picker you need to install awww and run it and disable linux-wallpaperengine.
 
 # Powered by
 
