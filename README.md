@@ -4,6 +4,7 @@
 
 # Installation
 Kernels by CachyOS
+
 I use [this](https://github.com/dharmx/walls) wallpapers in ~/Pictures/Wallpapers for awww
 
 Install script for any shell:
