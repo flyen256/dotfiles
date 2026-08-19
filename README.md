@@ -3,9 +3,11 @@
 <img width="1920" height="1080" alt="2026-08-18-200359_hyprshot" src="https://github.com/user-attachments/assets/af8e0e6f-afc8-4be2-b3ba-195a861c674b" />
 
 # Installation
-Kernels by CachyOS
+I use kernels by CachyOS
 
-I use [this](https://github.com/dharmx/walls) wallpapers in ~/Pictures/Wallpapers for awww
+[Wallpapers](https://github.com/dharmx/walls)
+
+Place all wallpapers inside or any folder inside ~/Pictures/Wallpapers for wallpaper picker
 
 Install script for any shell:
 ```sh
