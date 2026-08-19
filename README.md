@@ -5,16 +5,16 @@
 # Installation
 I use kernels by CachyOS
 
-[Wallpapers](https://github.com/dharmx/walls)
-
-Place all wallpapers inside or any folder inside ~/Pictures/Wallpapers for wallpaper picker
-
 Install script for any shell:
 ```sh
 bash -c "$(curl -sL https://raw.githubusercontent.com/flyen256/dotfiles/refs/heads/main/setup.sh)"
 ```
 # Usage
-You can view keybinds in hypr config which has a very simple architecture. To use wallpaper picker you need to install awww and run it and disable linux-wallpaperengine.
+[Wallpapers](https://github.com/dharmx/walls)
+
+Place your wallpapers inside ~/Pictures/Wallpapers (or any subfolder). The wallpaper picker searches for files recursively.
+
+You can view keybinds in hypr config which has a very simple architecture. To use wallpaper picker you need to install awww and run it and disable linux-wallpaperengine. But for now i prefer to use linux-wallpaper.
 
 # Powered by
 
