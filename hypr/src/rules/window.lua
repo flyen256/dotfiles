@@ -25,9 +25,17 @@ hl.window_rule({
 	float = true
 })
 hl.window_rule({
+	name = "rider-properties",
+	match = {
+		class = "jetbrains-rider",
+		title = "Folder Properties.*"
+	},
+	center = true
+})
+hl.window_rule({
 	name = "tearing",
 	match = {
-		class = "^(osu!.exe|steam_app_1422450|gamescope)$"
+		class = "^(osu!.exe|steam_app_1422450|gamescope|steam_app_3293010)$"
 	},
 	immediate = true
 })

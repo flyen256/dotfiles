@@ -4,6 +4,7 @@ local exec_cmd = hl.dsp.exec_cmd
 
 hl.bind(config.mainMod .. " + W", exec_cmd(config.applications.steam))
 hl.bind(config.mainMod .. " + Q", exec_cmd(config.applications.terminal))
+hl.bind(config.mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("[float; size 1200 650; center] " .. config.applications.terminal))
 hl.bind(config.mainMod .. " + E", exec_cmd(config.applications.fileManager))
 hl.bind(config.mainMod .. " + X", exec_cmd(config.applications.menu))
 hl.bind(config.mainMod .. " + G", exec_cmd(config.applications.browser))

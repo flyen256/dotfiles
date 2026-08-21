@@ -9,7 +9,7 @@ hl.monitor({
 
 hl.monitor({
     output   = "DP-1",
-    mode     = "1920x1080@60",
+    mode     = "1920x1080@75",
     position = "0x0",
     scale    = "auto",
 })
