@@ -1,13 +1,14 @@
 @import "./mixins/button.scss";
 @import "./colors.scss";
 
-$font-size: 18px;
+$font-size: 14px;
 $font-weight: 500;
 $border-radius: 0px;
 $border-width: 0px;
+$window-shadow: 0 0px 8px 4px rgba(0, 0, 0, 0.2);
 
 * {
-  font-family: "Fixedsys Excelsior";
+  font-family: "Departure Mono Nerd Font";
   font-size: $font-size;
   font-weight: $font-weight;
   outline: none;
@@ -15,8 +16,8 @@ $border-width: 0px;
 }
 
 .icon {
-  font-family: "Material Symbols Outlined";
-  font-size: 18px;
+  font-family: "Departure Mono Nerd Font";
+  font-size: 22px;
 }
 
 .closeButton {

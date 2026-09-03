@@ -33,8 +33,7 @@ export const Resources = () => {
         <With value={cpuLoad}>
           {(load) => (
             <box spacing={options.bar.elementSpacing}>
-              <label class="icon" label={"memory"} />
-              <label class="barLabel" label={load} />
+              <label class="barLabel" label={` ${load}`} />
             </box>
           )}
         </With>
@@ -43,8 +42,7 @@ export const Resources = () => {
         <With value={ramLoad}>
           {(load) => (
             <box spacing={options.bar.elementSpacing}>
-              <image iconName={icons.cpu} />
-              <label class="barLabel" label={load} />
+              <label class="barLabel" label={` ${load}`} />
             </box>
           )}
         </With>
@@ -53,8 +51,7 @@ export const Resources = () => {
         <With value={gpuLoad}>
           {(load) => (
             <box spacing={options.bar.elementSpacing}>
-              <image iconName={icons.gpu} />
-              <label class="barLabel" label={load} />
+              <label class="barLabel" label={`󰘚 ${load}`} />
             </box>
           )}
         </With>

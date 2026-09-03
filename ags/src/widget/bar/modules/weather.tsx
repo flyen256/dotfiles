@@ -23,8 +23,7 @@ export const Weather = () => {
 
   return (
     <box cssClasses={["barElement"]} spacing={options.bar.elementSpacing}>
-      <image iconName={icons.weather} />
-      <label label={weatherState.as((w) => w.temp)} class="barLabel" />
+      <label label={weatherState.as((w) => `󰅟 ${w.temp}`)} class="barLabel" />
     </box>
   )
 }

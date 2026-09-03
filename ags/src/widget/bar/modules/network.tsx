@@ -20,11 +20,11 @@ export const Network = () => {
 
     switch (primary) {
       case AstalNetwork.Primary.WIFI:
-        return icons.wireless
+        return "󰤨"
       case AstalNetwork.Primary.WIRED:
-        return icons.wired
+        return ""
       default:
-        return icons.wireless_off
+        return "󱘖"
     }
   }
 
@@ -33,8 +33,7 @@ export const Network = () => {
       <With value={networkState}>
         {(state) => (
           <box cssClasses={["barElement"]} spacing={options.bar.elementSpacing}>
-            <image iconName={networkIcon()} />
-            <label class="barLabel" label={state} />
+            <label class="barLabel" label={`${networkIcon()} ${state}`} />
           </box>
         )}
       </With>

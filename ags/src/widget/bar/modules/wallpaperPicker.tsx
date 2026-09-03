@@ -8,7 +8,7 @@ export const WallpaperPickerButton = () => {
       class="barButton"
       onClicked={() => app.toggle_window(options.wallpaperPicker.windowName)}
     >
-      <image iconName={icons.wallpaper} />
+      <label label={""}/>
     </button>
   )
 }

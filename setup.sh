@@ -33,7 +33,9 @@ then
             apple_cursor \
             vicinae \
             tg-ws-proxy-bin \
-            linux-wallpaperengine-git
+            linux-wallpaperengine-git \
+            otf-departure-mono-nerd \
+            otf-monocraft
     ags types
     git clone https://github.com/flyen256/dotfiles ./flyen256_dotfiles/.config
     cp -ri ./flyen256_dotfiles/.config

@@ -1,6 +1,9 @@
 @import "./mixins/button.scss";
 
 window.WallpaperPicker {
+  margin: 10px;
+  box-shadow: $window-shadow;
+
   entry {
     border-radius: $border-radius;
     background-color: $background-item;

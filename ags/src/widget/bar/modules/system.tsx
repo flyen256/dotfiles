@@ -8,7 +8,7 @@ export const SystemButton = () => {
       class="barButton"
       onClicked={() => app.toggle_window(options.system.windowName)}
     >
-      <image iconName={icons.shutdown} />
+      <label label={"󰐥"} class="icon"/>
     </button>
   )
 }

@@ -7,12 +7,11 @@ export const Time = () => {
 
   return (
     <box cssClasses={["barElement"]} spacing={options.bar.elementSpacing}>
-      <image iconName={icons.clock} />
       <label
         class="barLabel"
         label={time.as((s) => {
           let formattedTime = s
-          return formattedTime.slice(0, s.length - 3).trim()
+          return `󰥔 ${formattedTime.slice(0, s.length - 3).trim()}`
         })}
       />
     </box>
