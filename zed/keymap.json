@@ -19,27 +19,33 @@
     },
   },
   {
-    "context": "Workspace",
-    "unbind": {
-      "ctrl-shift-s": "workspace::SaveAs"
-    }
+    "context": "Editor",
+    "bindings": {
+      "ctrl-lmb": "editor::GoToDefinition",
+    },
   },
   {
     "context": "Workspace",
     "unbind": {
-      "ctrl-shift-s": "workspace::SaveAs"
-    }
+      "ctrl-shift-s": "workspace::SaveAs",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-s": "workspace::SaveAs",
+    },
   },
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-shift-s": "workspace::SaveAll"
-    }
+      "ctrl-shift-s": "workspace::SaveAll",
+    },
   },
   {
     "context": "Workspace",
     "unbind": {
-      "ctrl-alt-s": "workspace::SaveAll"
-    }
-  }
+      "ctrl-alt-s": "workspace::SaveAll",
+    },
+  },
 ]

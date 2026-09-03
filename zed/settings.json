@@ -10,35 +10,35 @@
   "format_on_save": "on",
   "cli_default_open_behavior": "new_window",
   "terminal": {
-    "button": false
+    "button": false,
   },
   "debugger": {
-    "button": false
+    "button": false,
   },
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "status_bar": {
     "active_language_button": false,
-    "cursor_position_button": false
+    "cursor_position_button": false,
   },
   "agent": {
     "sidebar_side": "right",
     "button": false,
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "search": {
-    "button": false
+    "button": false,
   },
   "diagnostics": {
-    "button": false
+    "button": false,
   },
   "icon_theme": "Material Icon Theme",
   "ui_font_size": 16,
@@ -47,5 +47,10 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Adwaita Pastel Dark",
+  },
+  "languages": {
+    "CSharp": {
+      "language_servers": ["csharp-ls", "!roslyn", "!omnisharp", "..."],
+    },
   },
 }

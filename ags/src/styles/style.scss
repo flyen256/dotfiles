@@ -1,13 +1,13 @@
 @import "./mixins/button.scss";
 @import "./colors.scss";
 
-$font-size: 14px;
-$font-weight: 700;
-$border-radius: 12px;
-$border-width: 2px;
+$font-size: 18px;
+$font-weight: 500;
+$border-radius: 0px;
+$border-width: 0px;
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
+  font-family: "Fixedsys Excelsior";
   font-size: $font-size;
   font-weight: $font-weight;
   outline: none;

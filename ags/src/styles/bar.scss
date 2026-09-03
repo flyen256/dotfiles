@@ -7,12 +7,10 @@ window.Bar {
   min-height: 24px;
 
   > centerbox {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border: $border-width solid $border;
-    border-radius: $border-radius + 4;
+    padding: 4px 0px;
+    border-bottom: $border-width solid $border;
+    border-radius: $border-radius + if($border-radius > 0, 4, 0);
     background: $background-main;
-    margin: 12px 16px 0px 16px;
   }
 
   .startBox {
