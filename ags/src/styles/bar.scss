@@ -7,7 +7,6 @@ window.Bar {
   min-height: 24px;
 
   > centerbox {
-    padding: 4px 0px;
     border-bottom: $border-width solid $border;
     border-radius: $border-radius + if($border-radius > 0, 4, 0);
     background: $background-main;
