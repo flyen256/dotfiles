@@ -40,13 +40,17 @@
   "diagnostics": {
     "button": false,
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Adwaita Pastel Dark",
+    "mode": "dark",
+    "light": "Gruvbox Light",
+    "dark": "Discord Dark",
   },
   "languages": {
     "CSharp": {

@@ -6,10 +6,10 @@ require("src.general.animations")
 
 hl.config({
 	general = {
-		gaps_in  = 0,
-		gaps_out = 0,
+		gaps_in  = 4,
+		gaps_out = 40,
 
-		border_size = 0,
+		border_size = 2,
 
 		col = {
 			active_border   = "0xffb9b6c7",
@@ -23,11 +23,11 @@ hl.config({
 	},
 
 	decoration = {
-		rounding       = 0,
-		rounding_power = 2,
+		rounding       = 8,
+		rounding_power = 3,
 
-		active_opacity   = 0.95,
-		inactive_opacity = 0.95,
+		active_opacity   = 0.9,
+		inactive_opacity = 0.9,
 
 		shadow = {
 			enabled      = false,
@@ -37,12 +37,12 @@ hl.config({
 		},
 
 		blur = {
-			enabled    = false,
+			enabled    = true,
 			size       = 1,
-			passes     = 2,
+			passes     = 4,
 			vibrancy   = 1,
-			brightness = 1,
-			xray			 = false
+			brightness = 2,
+			xray			 = true
 		},
 	},
 
