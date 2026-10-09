@@ -14,5 +14,6 @@
       "dark": {
          "name": "elementary-dark"
       }
-   }
+   },
+   "fallbacks": []
 }

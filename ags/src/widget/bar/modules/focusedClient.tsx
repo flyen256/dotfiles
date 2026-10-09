@@ -43,8 +43,8 @@ export const FocusedClient = () => {
                 <With value={titleBinding}>
                   {(title) => {
                     const formattedTitle =
-                      title.length > 45
-                        ? title.trim().slice(0, 42) + "..."
+                      title.length > 18
+                        ? title.trim().slice(0, 15) + "..."
                         : title.trim()
 
                     return (

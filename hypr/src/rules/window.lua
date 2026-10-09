@@ -35,7 +35,7 @@ hl.window_rule({
 hl.window_rule({
 	name = "tearing",
 	match = {
-		class = "^(osu!.exe|minecraft|Minecraft*|steam_app_1422450|gamescope|steam_app_3293010|Minecraft|org.freesmlauncher.FreesmLauncher)$"
+		class = "^(osu!.exe|minecraft|Minecraft*|steam_app_1422450|gamescope|steam_app_3293010|Minecraft|org.freesmlauncher.FreesmLauncher|steam_app_2427410)$"
 	},
 	immediate = true,
 	opacity = 1.0

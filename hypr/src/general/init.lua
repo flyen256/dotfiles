@@ -5,15 +5,18 @@ require("src.general.input")
 require("src.general.animations")
 
 hl.config({
+	xwayland = {
+		force_zero_scaling = true
+  },
 	general = {
 		gaps_in  = 4,
-		gaps_out = 40,
+		gaps_out = 32,
 
 		border_size = 2,
 
 		col = {
-			active_border   = "0xffb9b6c7",
-			inactive_border = "0xffb9b6c7",
+			active_border   = "0xffdeddda",
+			inactive_border = "0xffdeddda",
 		},
 
 		resize_on_border = false,
@@ -26,8 +29,8 @@ hl.config({
 		rounding       = 8,
 		rounding_power = 3,
 
-		active_opacity   = 0.9,
-		inactive_opacity = 0.9,
+		active_opacity   = 1.0,
+		inactive_opacity = 1.0,
 
 		shadow = {
 			enabled      = false,

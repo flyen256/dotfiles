@@ -21,7 +21,7 @@ export const KeyboardLayout = () => {
   return (
     <box cssClasses={["barElement"]} spacing={options.bar.elementSpacing}>
       <With value={keyboardLayout}>
-        {(k) => <label class="barLabel" label={`󰌌 ${k}`} />}
+        {(k) => <label cssClasses={["barLabel", "keyboardLabel"]} label={`󰌌 ${k}`} />}
       </With>
     </box>
   )

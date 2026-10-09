@@ -14,6 +14,7 @@ local config = {
 		["10"] = "HDMI-A-1",
 	},
 	autostart_programs = {
+		"xrandr --output DP-1 --primary",
 		"hyprctl dispatch workspace 0",
 		"ags run",
 		"awww-daemon",
@@ -26,13 +27,16 @@ local config = {
 		"gsettings set org.gnome.desktop.interface gtk-theme \"YOUR_DARK_GTK3_THEME\"",
 		"gsettings set org.gnome.desktop.interface color-scheme \"prefer-dark\"",
 		"vicinae server",
-		"dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+		"dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP",
+		"[workspace 4 silent] discord",
+		"[workspace 5 silent] Telegram",
+		"[workspace 1 silent] firefox"
 	},
 	applications = {
 		terminal = "kitty",
 		fileManager = "nautilus",
 		menu = "vicinae toggle",
-		browser = "chromium",
+		browser = "firefox",
 		discord = "discord",
 		telegram = "Telegram",
 		code = "code",

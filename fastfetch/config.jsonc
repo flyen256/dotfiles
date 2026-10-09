@@ -1,0 +1,31 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+	"logo": {
+			"type": "auto",
+			"source": "/home/flyen256/Downloads/7b6efa858fd7f47de154291746deb069.jpg",
+			"width": 30,
+			"height": 13
+	},
+  "modules": [
+    "title",
+    "separator",
+		{
+			"type": "command",
+			"key": "Install age",
+			"text": "birth_install=$(stat -c %W /); current=$(date +%s); if [ \"$birth_install\" -gt 0 ]; then diff=$((current - birth_install)); years=$((diff / 31536000)); remaining_secs=$((diff % 31536000)); days=$((remaining_secs / 86400)); remaining_secs=$((remaining_secs % 86400)); hours=$((remaining_secs / 3600)); remaining_secs=$((remaining_secs % 3600)); minutes=$((remaining_secs / 60)); seconds=$((remaining_secs % 60)); out=\"\"; [ $years -gt 0 ] && out=\"${years} years, \"; [ $days -gt 0 ] && out=\"${out}${days} days, \"; echo \"${out}${hours} hours, ${minutes} mins, ${seconds} secs\"; else echo \"Unknown\"; fi"
+		},
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "processes",
+    "packages",
+    "shell",
+    "de",
+    "wm",
+    "cursor",
+    "terminal",
+    "cpu",
+    "gpu"
+  ]
+}

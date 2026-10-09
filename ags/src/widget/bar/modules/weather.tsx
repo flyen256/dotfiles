@@ -11,10 +11,10 @@ export const Weather = () => {
       const cleanTemp = res.trim()
       
       if (cleanTemp.includes("<") || cleanTemp === "") {
-        return { temp: "Error" }
+        return { temp: "n/a" }
       }
 
-      return { temp: cleanTemp }
+      return { temp: cleanTemp.length > 5 ? "n/a" : cleanTemp }
     } catch (error) {
       console.error("Get weather error:", error)
       return { temp: "n/a" }

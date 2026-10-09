@@ -43,18 +43,27 @@
   "icon_theme": {
     "mode": "light",
     "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
+    "dark": "Material Icon Theme",
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
     "light": "Gruvbox Light",
-    "dark": "Discord Dark",
+    "dark": "Gruvbox Dark",
   },
   "languages": {
     "CSharp": {
       "language_servers": ["csharp-ls", "!roslyn", "!omnisharp", "..."],
+    },
+  },
+  "lsp": {
+    "discord_presence": {
+      "initialization_options": {
+        "idle": {
+          "timeout": 600,
+        },
+      },
     },
   },
 }

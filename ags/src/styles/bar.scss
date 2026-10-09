@@ -67,6 +67,7 @@ window.Bar {
     }
 
     .focusedClientTitle {
+      color: $foreground-selected;
       font-size: 12px;
     }
   }
@@ -74,5 +75,13 @@ window.Bar {
   .barButton {
     @include button;
     padding: 0px 4px;
+  }
+
+  .resourcesLabel {
+    color: $foreground-secondary;
+  }
+
+  .keyboardLabel {
+    color: $foreground-selected;
   }
 }

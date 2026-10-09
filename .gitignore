@@ -13,3 +13,5 @@
 !LICENSE
 !setup.sh
 !btop
+!fastfetch
+!fastfetch/config.jsonc
