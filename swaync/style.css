@@ -1,22 +1,22 @@
 :root {
   font-family: "Departure Mono Nerd Font";
-  --cc-bg: #2e2e2e;
-  --noti-border-color: #b9b6c7;
+  --cc-bg: #1d1d20;
+  --noti-border-color: #deddda;
   --noti-bg: 46, 46, 46;
   --noti-bg-alpha: 1.0;
-  --noti-bg-darker: #2e2e2e;
-  --noti-bg-hover: #2e2e2e;
-  --noti-bg-focus: #2e2e2e;
-  --noti-close-bg: #424242;
-  --noti-close-bg-hover: #565656;
-  --text-color: #b9b6c7;
+  --noti-bg-darker: #1d1d20;
+  --noti-bg-hover: #1d1d20;
+  --noti-bg-focus: #1d1d20;
+  --noti-close-bg: transparent;
+  --noti-close-bg-hover: transparent;
+  --text-color: #deddda;
   --text-color-disabled: #9e8f8f;
   --bg-selected: rgb(0, 128, 255);
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
   --border: 0px solid var(--noti-border-color);
-  --border-radius: 0px;
+  --border-radius: 8px;
   --notification-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3),
     0 1px 3px 1px rgba(0, 0, 0, 0.7), 0 2px 6px 2px rgba(0, 0, 0, 0.3);
   --font-size-body: 14px;
